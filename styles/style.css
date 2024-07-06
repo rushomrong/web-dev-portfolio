@@ -199,6 +199,12 @@ hr{
     font-weight: 800;
 }
 
+.experience .edu-head {
+    font-size: 30px;
+    color: #474747;
+    font-weight: 800;
+}
+
 .edu-details .edu-title {
     font-size: 25px;
     color: #181818;
