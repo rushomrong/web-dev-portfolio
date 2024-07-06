@@ -12,6 +12,10 @@
 
 
 /*Shared common style*/
+.secondary-bg {
+    background-color: #FFF8F3;
+}
+
 .title-primary {
     color: #FD6E0A;
 }
@@ -29,12 +33,59 @@
     border: none;
 }
 
+.section-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.section-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+
+
 /*header class*/
 
 .header{
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+}
+
+
+/*main style css*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/*About style css*/
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title {
+   font-size: 20px;
+   font-weight: 400;
+   color: #757575;
+   margin-bottom: -15px;
+}
+
+.item-description {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
 }
 
  /*Nav style*/ 
