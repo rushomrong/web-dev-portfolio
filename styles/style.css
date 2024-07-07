@@ -228,6 +228,10 @@ hr{
     color: #757575;
 }
 
+.resume-btn {
+    margin-top: 70px;    
+}
+
 /*Footer Style*/
 
 .footer-container {
