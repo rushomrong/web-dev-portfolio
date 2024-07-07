@@ -235,6 +235,7 @@ hr{
     display: flex;
     padding: 130px 230px 0 230px;
     justify-content: space-between;
+    /* gap: 100px; */
 }
 
 
@@ -263,4 +264,27 @@ hr{
 
 .social-icons a {
     text-decoration: none;
+}
+
+/*Form Style*/
+footer input[type="text"], input[type="email"] {
+    height: 64px;
+    width: 461px;
+    display: block;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+footer textarea {
+    height: 180px;
+    width: 461px;
+    display: block;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 10px;
 }
